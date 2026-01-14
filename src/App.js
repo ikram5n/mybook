@@ -15,7 +15,7 @@ export default function App() {
   const [activeChapter, setActiveChapter] = useState(0);
   const [loginInput, setLoginInput] = useState({ id: '', pass: '' });
 
-  const repo = "prajesh9755/BOOK";
+  const repo = "ikram5n/mybook";
   const path = "src/books.json";
 
   useEffect(() => {
